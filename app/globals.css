@@ -25,3 +25,34 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.orbiting-button-container {
+  position: relative;
+  display: inline-block;
+  animation: orbit 5s linear infinite;
+}
+
+.orbiting-button {
+  @apply bg-blue-500 text-white rounded-full py-2 px-4 cursor-pointer;
+}
+
+@keyframes orbit {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  100% {
+    transform: translateX(150px) rotate(360deg);
+  }
+}
+
+.hero-container {
+  background-image: url('./../public/pp.png');
+  background-size: cover;
+}
+.quote-text strong{
+font-size: 35spx;
+
+}
+.quote-text{
+  line-height: 45px !important;
+}
