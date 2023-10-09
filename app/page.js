@@ -6,7 +6,7 @@ import pp from "../public/pp.png";
 import { AiFillYoutube, AiFillMail, AiFillInstagram} from 'react-icons/ai';
 import { SiNasa, SiYourtraveldottv, SiGooglemaps} from 'react-icons/si';
 import { FaInfoCircle, FaSpaceShuttle } from 'react-icons/fa';
-import { BsMoonStars, BsFacebook } from 'react-icons/bs';
+import { BsFacebook } from 'react-icons/bs';
 
 export default function Home() {
   return (
@@ -82,7 +82,6 @@ export default function Home() {
                 <div className="text-8xl text-yellow-500 flex justify-center gap-10 py-3">
                   <a href="https://www.nasa.gov/" target="_blank" rel="noreferrer"><SiNasa/></a>
                   <a href="https://www.spacex.com/" target="_blank" rel="noreferrer"><SiYourtraveldottv/></a>
-                  <a href="https://www.nasa.gov/" target="_blank" rel="noreferrer"><FaSpaceShuttle/></a>
                 </div>
             </div>
           </section>
@@ -100,7 +99,7 @@ export default function Home() {
                   <a href="mailto:tourismoon1@gmail.com" className="mr-4 hover:underline md:mr-6 "><AiFillMail/></a>
               </li>
               <li>
-                  <a href="mailto:tourismoon1@gmail.com" className="mr-4 hover:underline md:mr-6 "><AiFillInstagram/></a>
+                  <a href="#" className="mr-4 hover:underline md:mr-6 "><AiFillInstagram/></a>
               </li>
           </ul>
           </div>
